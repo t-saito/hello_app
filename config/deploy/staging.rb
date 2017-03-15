@@ -42,7 +42,9 @@ server "localhost:32770", user: "sample_user", roles: %w{web}
 #
 # Global options
 # --------------
-#  set :ssh_options, {
+ set :ssh_options, {
+   password: # 'write down here'
+ }
 #    keys: %w(/home/rlisowski/.ssh/id_rsa),
 #    forward_agent: false,
 #    auth_methods: %w(password)
